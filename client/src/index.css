@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:ital,wght@0,100;0,500;0,600;0,700;1,200;1,300;1,400&family=Montserrat:wght@100;500&family=PT+Sans&family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu+Mono:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Montserrat", sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+
+/* overriding antd button styles */
+button {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  height: 40px !important;
+}
+
+input, textarea, select {
+  min-height: 40px !important;
+  border: 1px solid #504e4e !important;
+  border-radius: 2px !important;
+  width: 100% !important;
+}
+
+input:focus, textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color: #6a6a6a !important;
+}
+
+i {
+  font-size: 30px;
+}
+
+.ant-form-item-label {
+  padding: 0 !important;
+}
+
+table {
+  border: 1px solid #969696 !important;
+  border-radius: 2px !important;
+}
